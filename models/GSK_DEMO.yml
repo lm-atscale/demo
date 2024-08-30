@@ -1,0 +1,14 @@
+unique_name: GSK_DEMO
+object_type: model
+label: GSK_DEMO
+metrics:
+  - unique_name: m_factinternetsales_salesamount_sum
+relationships:
+  - unique_name: factinternetsales_orderdatekey_to_Date Dimension 2_Date
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - orderdatekey
+    to:
+      dimension: Date Dimension 2
+      level: Date
