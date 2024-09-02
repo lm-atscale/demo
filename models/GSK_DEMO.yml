@@ -1,0 +1,16 @@
+unique_name: GSK_DEMO
+object_type: model
+label: GSK_DEMO
+metrics:
+  - unique_name: m_factinternetsales_orderquantity_sum
+  - unique_name: m_factinternetsales_salesamount_sum
+  - unique_name: AVG Sales Per Order
+relationships:
+  - unique_name: factinternetsales_orderdatekey_to_Date Dimension_1_Date
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - orderdatekey
+    to:
+      dimension: Date Dimension_1
+      level: Date
