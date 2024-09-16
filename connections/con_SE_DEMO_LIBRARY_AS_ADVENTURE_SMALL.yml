@@ -1,0 +1,6 @@
+unique_name: con_SE_DEMO_LIBRARY_AS_ADVENTURE_SMALL
+object_type: connection
+label: con_SE_DEMO_LIBRARY_AS_ADVENTURE_SMALL
+as_connection: Snowflake_Partner
+database: SE_DEMO_LIBRARY
+schema: AS_ADVENTURE_SMALL

@@ -1,0 +1,14 @@
+unique_name: Test_Demo
+object_type: model
+label: Test_Demo
+metrics:
+  - unique_name: m_FACTINTERNETSALES_unitprice_sum (1)
+relationships:
+  - unique_name: FACTINTERNETSALES_productkey_to_Product Dimension_Product Name
+    from:
+      dataset: FACTINTERNETSALES
+      join_columns:
+        - productkey
+    to:
+      dimension: Product Dimension
+      level: Product Name
