@@ -1,0 +1,33 @@
+unique_name: test_GSK
+object_type: model
+label: test_GSK
+metrics:
+  - unique_name: m_factinternetsales_salesamount_sum
+  - unique_name: m_factinternetsales_orderquantity_sum
+relationships:
+  - unique_name: factinternetsales_productkey_to_Product Dimension_1_Product Name
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - productkey
+    to:
+      dimension: Product Dimension_1
+      level: Product Name
+  - unique_name: factinternetsales_shipdatekey_to_Date Dimension_1_Date
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - shipdatekey
+    role_play: Ship {0}
+    to:
+      dimension: Date Dimension_1
+      level: Date
+  - unique_name: factinternetsales_orderdatekey_to_Date Dimension_1_Date
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - orderdatekey
+    role_play: Order {0}
+    to:
+      dimension: Date Dimension_1
+      level: Date

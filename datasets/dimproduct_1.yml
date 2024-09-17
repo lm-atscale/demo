@@ -1,20 +1,20 @@
-unique_name: DIMPRODUCT_1
+unique_name: dimproduct_1
 object_type: dataset
-label: DIMPRODUCT
+label: dimproduct
 columns:
   - name: productkey
-    data_type: decimal(38,0)
+    data_type: int
   - name: englishproductname
     data_type: string
   - name: listprice
-    data_type: double
+    data_type: float
   - name: startdate
     data_type: string
   - name: productsubcategorykey
-    data_type: decimal(38,0)
+    data_type: int
   - name: productline
     data_type: string
   - name: productsubcategoryname
     data_type: string
-connection_id: common_connection
-table: DIMPRODUCT
+connection_id: con_hive_metastore_as_adventure
+table: dimproduct
