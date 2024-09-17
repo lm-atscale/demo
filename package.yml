@@ -1,6 +1,6 @@
 version: 1
 packages:
-  - version: commit:64afc8974bd264d20272459bf277a010345ea96c
+  - version: commit:805d3f4a4ece7f6f05aa0994e13219ba2182a1ac
     name: Salesinsights_Common
     url: https://github.com/lm-atscale/sml-salesinsights-common.git
     branch: main
