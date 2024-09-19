@@ -1,0 +1,8 @@
+unique_name: DIM_GEO_COUNTRY
+object_type: dataset
+label: dim_geo_country
+columns:
+  - name: country
+    data_type: string
+connection_id: con_hive_metastore_as_adventure
+table: dim_geo_country

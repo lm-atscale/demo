@@ -1,0 +1,14 @@
+unique_name: DIM_GEO_CITY
+object_type: dataset
+label: dim_geo_city
+columns:
+  - name: geographykey
+    data_type: int
+  - name: city
+    data_type: string
+  - name: statekey
+    data_type: string
+  - name: citystatekey
+    data_type: string
+connection_id: con_hive_metastore_as_adventure
+table: dim_geo_city
