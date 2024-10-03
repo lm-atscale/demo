@@ -1,0 +1,14 @@
+unique_name: DIM_GEO_CITY
+object_type: dataset
+label: DIM_GEO_CITY
+columns:
+  - name: geographykey
+    data_type: decimal(38,0)
+  - name: city
+    data_type: string
+  - name: statekey
+    data_type: string
+  - name: citystatekey
+    data_type: string
+connection_id: con_SE_DEMO_LIBRARY_AS_ADVENTURE
+table: DIM_GEO_CITY

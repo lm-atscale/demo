@@ -1,0 +1,8 @@
+unique_name: DIM_GEO_COUNTRY
+object_type: dataset
+label: DIM_GEO_COUNTRY
+columns:
+  - name: country
+    data_type: string
+connection_id: con_SE_DEMO_LIBRARY_AS_ADVENTURE
+table: DIM_GEO_COUNTRY
